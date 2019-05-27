@@ -42,32 +42,119 @@
 <section class="signin-page account">
   <div class="container">
     <div class="row">
-      <div class="col-md-6 col-md-offset-3">
+      <div class="col-md-8 col-md-offset-2">
         <div class="block text-center">
           <a class="logo" href="index.html">
-            <img src="images/logo.png" alt="">
+            <img src="images/logo.png" width="100" height="100">
           </a>
           <h2 class="text-center">Crea tu cuenta</h2>
-          <form class="text-left clearfix" action="index.html">
-            <div class="form-group">
-              <input type="text" class="form-control"  placeholder="Nombre">
+
+          
+          <form class="text-left clearfix" action="src/registro.php" method="POST">
+
+          <!---------------------  Primer row ---------------------------------->
+          <div class="row">
+            <div class="col-sm-6">
+
+                <div class="form-group">
+                    <input type="text" class="form-control"  placeholder="Nombre" name="nombre">
+                  </div>
+
             </div>
-            <div class="form-group">
-              <input type="text" class="form-control"  placeholder="Apellido">
+
+            <div class="col"></div>
+
+            <div class="col-sm-6">
+                <div class="form-group">
+                    <input type="text" class="form-control"  placeholder="Primer Apellido" name="apeP">
+                  </div>
+
             </div>
-            <div class="form-group">
-              <input type="text" class="form-control"  placeholder="Nombre de usuario">
+          </div>
+          <!---------------------  Segundo row ---------------------------------->
+          <div class="row">
+              <div class="col-sm-6">
+  
+                  <div class="form-group">
+                      <input type="text" class="form-control"  placeholder="Segundo Apellido" name="apeM">
+                    </div>
+  
+              </div>
+  
+              <div class="col"></div>
+  
+              <div class="col-sm-6">
+                  <div class="form-group">
+                      <input type="text" class="form-control"  placeholder="Tipo de usuario" name="tipoUser">
+                    </div>
+  
+              </div>
             </div>
-            <div class="form-group">
-              <input type="email" class="form-control"  placeholder="E-mail">
-            </div>
-            <div class="form-group">
-              <input type="password" class="form-control"  placeholder="Password">
-            </div>
+            <!---------------------  Tercer row ---------------------------------->
+            <div class="row">
+                <div class="col-sm-6">
+    
+                    <div class="form-group">
+                        <input type="text" class="form-control"  placeholder="No. casa" name="numCasa">
+                      </div>
+    
+                </div>
+    
+                <div class="col"></div>
+    
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <input type="text" class="form-control"  placeholder="Calle" name="calle">
+                      </div>
+    
+                </div>
+              </div>
+              <!---------------------  Cuarto row ---------------------------------->
+              <div class="row">
+                  <div class="col-sm-6">
+      
+                      <div class="form-group">
+                          <input type="text" class="form-control"  placeholder="colonia" name="colonia">
+                        </div>
+      
+                  </div>
+      
+                  <div class="col"></div>
+      
+                  <div class="col-sm-6">
+                      <div class="form-group">
+                          <input type="text" class="form-control"  placeholder="Codigo postal" name="CP">
+                        </div>
+      
+                  </div>
+                </div>
+                <!---------------------  Quinto row ---------------------------------->
+                <div class="row">
+                    <div class="col-sm-6">
+        
+                        <div class="form-group">
+                            <input type="text" class="form-control"  placeholder="E-mail" name="mail">
+                          </div>
+        
+                    </div>
+        
+                    <div class="col"></div>
+        
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <input type="text" class="form-control"  placeholder="password" name="pass">                            
+                          </div>
+        
+                    </div>
+                  </div>
+            
             <div class="text-center">
               <button type="submit" class="btn btn-main text-center">Registrar</button>
             </div>
+
           </form>
+          
+          
           <p class="mt-20">Ya tienes una cuenta?<a href="login.html"> Iniciar Sesion</a></p>
         <!--  
 	<p><a href="forget-password.html"> Olvidaste el password?</a></p>

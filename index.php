@@ -70,7 +70,7 @@
 				</div>
 			</div>
 
-
+			<!-- condicion para la sesiones -->
 			<div class="col-md-4 col-xs-12 col-sm-4">
 			<!-- login y registro -->
 				<ul class="top-menu text-right list-inline">
